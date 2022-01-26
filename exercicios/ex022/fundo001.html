@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste imagem de fundo</title>
+</head>
+
+<style>
+
+    body{
+        background-image: url(Imagens/wallpaper001.jpg);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        height: calc(100vh - 20px);
+    }
+
+    h1{
+        background-image: linear-gradient(to bottom, rgb(151, 151, 151), rgb(0, 0, 0));
+        color: white;
+
+        padding: 15px;
+
+        border: 3px solid white;
+        border-radius: 10px;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+    }
+
+    div.quadrado{
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 10px;
+
+        width: 300px;
+        height: 300px;
+
+        display: inline-block;
+
+        background-color: #c6c7c4;
+
+        margin: 10px;
+    }
+
+    div#q1{
+       background-color: skyblue; 
+    }
+
+    div#q2{
+        background-image: url(Imagens/pattern003.png);
+    }
+
+    div#q3{
+        background-image: linear-gradient(to bottom, orange, yellow) ;
+    }
+
+</style>
+
+
+<body>
+
+    <h1>Teste imagem de fundo</h1>
+
+    <div class="container-quadrados">
+    
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
+
+    </div>
+
+</body>
+</html>
